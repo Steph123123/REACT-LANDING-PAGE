@@ -13,6 +13,6 @@ const Home = () => {
 			<Card />
 		</div>
 	);
-};
+};git 
 
 export default Home;
