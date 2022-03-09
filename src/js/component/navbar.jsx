@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg  navbar-dark bg-dark ">
 			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
-					Start Bootstrap
+				<a className="navbar-brand col-9" href="#">
+					Start Bootstrap with Steph! :D
 				</a>
 				<button
 					className="navbar-toggler"
@@ -19,8 +19,8 @@ const Navbar = () => {
 				</button>
 				<div
 					className="collapse navbar-collapse  "
-					id="navbarSupportedContent ">
-					<ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+					id="navbarSupportedContent  ">
+					<ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row-reverse bd-highlight ">
 						<li className="nav-item">
 							<a
 								className="nav-link active"
