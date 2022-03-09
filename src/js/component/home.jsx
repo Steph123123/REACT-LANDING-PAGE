@@ -7,12 +7,16 @@ import Jumbotron from "./jumbotron.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+		<div className="container">
 			<Navbar />
 			<Jumbotron />
-			<Card />
+			<div className="card-group">
+				<Card />
+				<Card />
+				<Card />
+				<Card />
+			</div>
 		</div>
 	);
-};git 
-
+};
 export default Home;

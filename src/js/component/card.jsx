@@ -2,16 +2,27 @@ import React from "react";
 
 const Card = () => {
 	return (
-		<div clasName="card">
-			<img src="..." clasName="card-img-top" alt="..." />
-			<div clasName="card-body">
-				<h5 clasName="card-title">Card title</h5>
-				<p clasName="card-text">
-					Some quick example text to build on the card title and make
-					up the bulk of the card's content.
+		<div className="card" style={{ width: "18rem;" }}>
+			{" "}
+			{/*style={{color: "red"}} */}
+			<img
+				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW0mSXUdsVY_JKU0BqDbbJEvSwX_93NGRhIw&usqp=CAU"
+				className="card-img-top"
+				alt="..."
+			/>
+			<div className="card-body">
+				<h5 className="card-title">Card title</h5>
+				<p className="card-text">
+					Lorem ipsum dolor sit amet consectetur adipiscing elit
+					venenatis facilisis, ultrices ad diam torquent scelerisque a
+					lacinia suspendisse nec, auctor hendrerit posuere magna hac
+					laoreet orci parturient. Tempor sociis euismod quisque
+					montes iaculis vitae nisi eu arcu sagittis velit cursus,
+					vivamus est tincidunt tortor in volutpat augue eget magnis
+					primis.
 				</p>
-				<a href="#" clasName="btn btn-primary">
-					Go somewhere
+				<a href="#" className="btn btn-primary">
+					Find out more!
 				</a>
 			</div>
 		</div>
